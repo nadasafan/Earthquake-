@@ -1,19 +1,9 @@
-# Data files
-*.csv
-*.npy
-*.pth
-*.h5
-*.hdf5
-
-# MSEED seismic data
-train/
-test/
-*.mseed
-
-# Generated outputs
-quake_charts/
+# Colab default data (not project related)
 sample_data/
-images_train/
+
+# Very large files (use Google Drive for these)
+X_prequake.npy
+y_prequake.npy
 
 # Python
 __pycache__/
