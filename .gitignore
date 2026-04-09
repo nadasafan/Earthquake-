@@ -1,0 +1,30 @@
+# Data files
+*.csv
+*.npy
+*.pth
+*.h5
+*.hdf5
+
+# MSEED seismic data
+train/
+test/
+*.mseed
+
+# Generated outputs
+quake_charts/
+sample_data/
+images_train/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
